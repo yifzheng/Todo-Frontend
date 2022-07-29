@@ -2,14 +2,14 @@ import axios from "axios";
 
 export const getAllToDoList = async () => {
 	const data = await axios
-		.get(`http://localhost:8080/api/todos`)
+		.get(`https://todos-backendapp.herokuapp.com/api/todos`)
 		.then((response) => response.data);
 	return data;
 };
 
 export const createToDo = async (content, priority) => {
 	return await axios
-		.post(`http://localhost:8080/api/todos`, {
+		.post(`https://todos-backendapp.herokuapp.com/api/todos`, {
 			content: content,
 			priority: priority,
 		})
@@ -17,5 +17,5 @@ export const createToDo = async (content, priority) => {
 };
 
 export const deleteTodo = async (id) => {
-    return await axios.delete(`http://localhost:8080/api/todos/${id}`);
+    return await axios.delete(`https://todos-backendapp.herokuapp.com/api/todos/${id}`);
 }
