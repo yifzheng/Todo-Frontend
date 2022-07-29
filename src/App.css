@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+ */
+@media screen and (min-width: 350px) {
+	body {
+		background-color: azure;
+	}
+	#Todo-TextField {
+		height: 50px;
+		width: calc(100% - 10%);
+		margin-left: 5%;
+		margin-top: 2%;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    font-size: 18px;
+	}
+  header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #priority {
+    margin-top: 10px;
+    width: 45%;
+    margin-left: 5%;
+    height: 50px;
+    border: 3px solid rgb(199, 199, 14);
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #createToDo {
+    margin-top: 10px;
+    width: calc(100% - 55.5%);
+    height: 50px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    margin-left: 1%;
+    border: 3px solid navy;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
