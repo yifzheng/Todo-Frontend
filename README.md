@@ -1,4 +1,4 @@
-# ToDo Web Application
+# ToDo Web Application ~ Creator: Yifeng Zheng
 
 This repository holds the code for my todo web application which uses ReactJS and Axios for making backend calls towards a Heroku deployed web server.
 
